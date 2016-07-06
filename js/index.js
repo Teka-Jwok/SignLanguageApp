@@ -10,5 +10,8 @@ SubmittedCharacter.addEventListener('submit', function(event) {
 });
 
 function test(){
-	document.getElementById("testC").innerHTML = Character
+	document.getElementById("images").innerHTML = Character
+	if (Character == "A" || Character == "a") {
+		document.getElementById("testC").innerHTML = "<img src= assets/SignLanguage/A.png>"
+	}
 }
