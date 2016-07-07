@@ -89,5 +89,7 @@ function test(){
 	if (Character == "Z" || Character == "z"){
 		document.getElementById("images").innerHTML = "<img src= assets/SignLanguage/Z.png>"
 	}
-	if (Character.length -- 1 > 1) {}
+	// if (Character.length -- 1 > 0) {
+		
+	// }
 }
