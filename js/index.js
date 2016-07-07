@@ -42,6 +42,7 @@ var ImgLib = {
 }
 
 function test(strArr) {
+	document.getElementById('images').innerHTML= "";
 	for (var i = 0; i < strArr.length; i++) {
 		console.log(ImgLib[  strArr[i]  ])
 		var div = document.createElement('div');
