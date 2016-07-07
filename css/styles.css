@@ -1,20 +1,24 @@
 body{
 	text-align: center;
+	background-color: hotpink
 }
 #button{
-	width:300px;
-	height:100px;
+	background-color: red;
+	color: white;
+	width:150px;
+	height:50px;
 	font-size: 35px;
 	border-radius: 50px;
 
 }
 #SubmissionBox{
 	width:300px;
-	height: 100px;
+	height: 50px;
 	font-size: 40px;
 	border-radius: 80px;
 }
 img{
 	height:150px;
 	width:100px;
+
 }
