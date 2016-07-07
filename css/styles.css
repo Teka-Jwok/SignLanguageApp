@@ -1,0 +1,16 @@
+body{
+	text-align: center;
+}
+#button{
+	width:300px;
+	height:100px;
+	font-size: 35px;
+	border-radius: 50px;
+
+}
+#SubmissionBox{
+	width:300px;
+	height: 100px;
+	font-size: 40px;
+	border-radius: 80px;
+}
