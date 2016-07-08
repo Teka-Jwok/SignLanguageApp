@@ -65,7 +65,7 @@ var ImgLib = {
 	X: 'assets/SignLanguage/X.png',
 	Y: 'assets/SignLanguage/Y.png',
 	Z: 'assets/SignLanguage/Z.png'
-	// n1:
+	a1: 
 }
 
 function test(strArr) {
