@@ -39,33 +39,9 @@ var ImgLib = {
 	x: 'assets/SignLanguage/X.png',
 	y: 'assets/SignLanguage/Y.png',
 	z: 'assets/SignLanguage/Z.png',
-	A: 'assets/SignLanguage/A.png',
-	B: 'assets/SignLanguage/B.png', 
-	C: 'assets/SignLanguage/C.png',
-	D: 'assets/SignLanguage/D.png',
-	E: 'assets/SignLanguage/E.png',
-	F: 'assets/SignLanguage/F.png',
-	G: 'assets/SignLanguage/G.png',
-	H: 'assets/SignLanguage/H.png',
-	I: 'assets/SignLanguage/I.png',
-	J: 'assets/SignLanguage/J.png',
-	K: 'assets/SignLanguage/K.png',
-	L: 'assets/SignLanguage/L.png',
-	M: 'assets/SignLanguage/M.png',
-	N: 'assets/SignLanguage/N.png',
-	O: 'assets/SignLanguage/O.png',
-	P: 'assets/SignLanguage/P.png',
-	Q: 'assets/SignLanguage/Q.png',
-	R: 'assets/SignLanguage/R.png',
-	S: 'assets/SignLanguage/S.png',
-	T: 'assets/SignLanguage/T.png',
-	U: 'assets/SignLanguage/U.png',
-	V: 'assets/SignLanguage/V.png',
-	W: 'assets/SignLanguage/W.png',
-	X: 'assets/SignLanguage/X.png',
-	Y: 'assets/SignLanguage/Y.png',
-	Z: 'assets/SignLanguage/Z.png'
-	a1: 
+	ex: 'assets/SignLanguage/!.png',
+	qu: 'assets/SignLanguage/?.png',
+	sp: 'assets/SignLanguage/space.png'
 }
 
 function test(strArr) {
@@ -74,8 +50,17 @@ function test(strArr) {
 		console.log(ImgLib[  strArr[i]  ])
 		var div = document.createElement('div');
 		var img = document.createElement('img');
-		var ind = strArr[i]
-		img.src = ImgLib[ind]// "n" + number
+		var ind = strArr[i].toLowerCase()
+		if (ind === " ") {
+			ind = "sp";
+		}
+		if (ind === "!") {
+			ind = "ex";
+		}
+		if (ind === "?") {
+			ind = "qu";
+		}
+		img.src = ImgLib[ind]
 		div.appendChild(img);
 		div.className = "ASLImages";
 		document.getElementById("images").appendChild(div);
