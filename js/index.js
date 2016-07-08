@@ -41,7 +41,17 @@ var ImgLib = {
 	z: 'assets/SignLanguage/Z.png',
 	ex: 'assets/SignLanguage/!.png',
 	qu: 'assets/SignLanguage/?.png',
-	sp: 'assets/SignLanguage/space.png'
+	sp: 'assets/SignLanguage/space.png',
+	a0: 'assets/SignNumber/0.png',
+	a1: 'assets/SignNumber/1.png', 
+	a2: 'assets/SignNumber/2.png',
+	a3: 'assets/SignNumber/3.png',
+	a4: 'assets/SignNumber/4.png',
+	a5: 'assets/SignNumber/5.png',
+	a6: 'assets/SignNumber/6.png',
+	a7: 'assets/SignNumber/7.png',
+	a8: 'assets/SignNumber/8.png',
+	a9: 'assets/SignNumber/9.png',
 }
 
 function test(strArr) {
@@ -59,6 +69,36 @@ function test(strArr) {
 		}
 		if (ind === "?") {
 			ind = "qu";
+		}
+		if (ind === "0") {
+			ind = "a0"
+		}
+		if (ind === "1") {
+			ind = "a1"
+		}
+		if (ind === "2") {
+			ind = "a2"
+		}
+		if (ind === "3") {
+			ind = "a3"
+		}
+		if (ind === "4") {
+			ind = "a4"
+		}
+		if (ind === "5") {
+			ind = "a5"
+		}
+		if (ind === "6") {
+			ind = "a6"
+		}
+		if (ind === "7") {
+			ind = "a7"
+		}
+		if (ind === "8") {
+			ind = "a8"
+		}
+		if (ind === "9") {
+			ind = "a9"
 		}
 		img.src = ImgLib[ind]
 		div.appendChild(img);
