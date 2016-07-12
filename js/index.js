@@ -40,7 +40,7 @@ var ImgLib = {
 	y: 'assets/SignLanguage/Y.png',
 	z: 'assets/SignLanguage/Z.png',
 	ex: 'assets/SignLanguage/!.png',
-	qu: 'assets/SignLanguage/?.png',
+	qu: 'assets/SignLanguage/qu.png',
 	sp: 'assets/SignLanguage/space.png',
 	a0: 'assets/SignNumber/0.png',
 	a1: 'assets/SignNumber/1.png', 
@@ -68,6 +68,7 @@ function test(strArr) {
 			ind = "ex";
 		}
 		if (ind === "?") {
+			console.log(ind);
 			ind = "qu";
 		}
 		if (ind === "0") {
