@@ -1,7 +1,7 @@
 
 body{
 	text-align: center;
-	background-color: teal
+
 }
 #button{
 	background-color: aqua;
@@ -19,7 +19,7 @@ body{
     border: 1px solid #ffa853; 
     border-radius: 5px; 
     box-shadow: 0 0 5px 3px #ffa853; 
-    color: #666; 
+    color: #100; 
     outline: none; 
 	font-size: 40px;
 	border-radius: 80px;
@@ -31,8 +31,20 @@ img{
 
 }
 
+div#wrapper{
+background: linear-gradient(teal,blue);
+height:1000px;
+margin:-50px;
+}
+
+
 .ASLImages{
 	float: left;
+	margin-top: 100px;
+}
+
+#images{
+	display: inline-block;
 }
 
 #h1{
