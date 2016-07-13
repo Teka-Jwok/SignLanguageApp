@@ -23,6 +23,8 @@ body{
     outline: none; 
 	font-size: 40px;
 	border-radius: 80px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 img{
 	height:150px;
@@ -67,4 +69,7 @@ margin:-50px;
 #credits{
 	background: linear-gradient(gray,white);
 	height: 80px;
+	color: black;
+	text-align: center;
 }
+
