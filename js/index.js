@@ -6,11 +6,46 @@ SubmittedCharacter.addEventListener('submit', function(event) {
   event.preventDefault();
   Character = this.querySelector('input').value;
   console.log("Character is "+Character)
-  if (Character === "donald trump") {
-  	var img2 = document.createElement('img');
+  if (Character === "dtrump") {
+	  var img2 = document.createElement('img');
+		var src2 = 'assets/dtrump.jpeg';
   	console.log('donaldtrump')
+	  img2.src = src2;
+	  document.getElementById("images").appendChild(img2)
+	  return;
   }
-  	img.src = 'assets/dtrump.jpeg';
+  if (Character === "cnuggets") {
+	  var img3 = document.createElement('img');
+		var src3 = 'assets/chickenNuggets.gif';
+  	console.log('cnuggets')
+	  img3.src = src3;
+	  document.getElementById("images").appendChild(img3)
+	  return;
+  }
+  if (Character === "pmb") {
+	  var img4 = document.createElement('img');
+		var src = 'assets/pmb.gif';
+  	console.log('pmg')
+	  img4.src = src;
+	  document.getElementById("images").appendChild(img4)
+	  return;
+  }
+  if (Character === "kainoa") {
+	  var img5 = document.createElement('img');
+		var src = 'assets/kainoa.jpg';
+  	console.log('kainoa')
+	  img5.src = src;
+	  document.getElementById("images").appendChild(img5)
+	  return;
+  }
+  if (Character === "brody") {
+	  var img6 = document.createElement('img');
+		var src = 'assets/brody.jpg';
+  	console.log('brody')
+	  img6.src = src;
+	  document.getElementById("images").appendChild(img6)
+	  return;
+  }
   Character = Character.split("");
   console.log('Character',Character);
   test(Character)
