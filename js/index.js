@@ -11,8 +11,10 @@ SubmittedCharacter.addEventListener('submit', function(event) {
 		var src2 = 'assets/dtrump.jpeg';
   	console.log('donaldtrump')
 	  img2.src = src2;
+	  img2.className = "easter"
 	  document.getElementById("images").appendChild(img2)
 	  return;
+	  test(Character)
   }
   if (Character === "cnuggets") {
 	  var img3 = document.createElement('img');
@@ -21,6 +23,7 @@ SubmittedCharacter.addEventListener('submit', function(event) {
 	  img3.src = src3;
 	  document.getElementById("images").appendChild(img3)
 	  return;
+	  test(Character)
   }
   if (Character === "pmb") {
 	  var img4 = document.createElement('img');
@@ -29,6 +32,7 @@ SubmittedCharacter.addEventListener('submit', function(event) {
 	  img4.src = src;
 	  document.getElementById("images").appendChild(img4)
 	  return;
+	  test(Character)
   }
   if (Character === "kainoa") {
 	  var img5 = document.createElement('img');
@@ -37,6 +41,7 @@ SubmittedCharacter.addEventListener('submit', function(event) {
 	  img5.src = src;
 	  document.getElementById("images").appendChild(img5)
 	  return;
+	  test(Character)
   }
   if (Character === "brody") {
 	  var img6 = document.createElement('img');
@@ -45,6 +50,25 @@ SubmittedCharacter.addEventListener('submit', function(event) {
 	  img6.src = src;
 	  document.getElementById("images").appendChild(img6)
 	  return;
+	  test(Character)
+  }
+  if (Character === "sohn") {
+	  var img7 = document.createElement('img');
+		var src = 'assets/sohn.jpg';
+  	console.log('sohn')
+	  img7.src = src;
+	  document.getElementById("images").appendChild(img7)
+	  return;
+	  test(Character)
+  }
+  if (Character === "chloe") {
+	  var img8 = document.createElement('img');
+		var src = 'assets/chloe.jpg';
+  	console.log('chloe')
+	  img8.src = src;
+	  document.getElementById("images").appendChild(img8)
+	  return;
+	  test(Character)
   }
   Character = Character.split("");
   console.log('Character',Character);
@@ -62,7 +86,7 @@ var ImgLib = {
 	g: 'assets/SignLanguage/G.png',
 	h: 'assets/SignLanguage/H.png',
 	i: 'assets/SignLanguage/I.png',
-	j: 'assets/SignLanguage/J.png',
+	j: 'assets/SignLanguage/J.gif',
 	k: 'assets/SignLanguage/K.png',
 	l: 'assets/SignLanguage/L.png',
 	m: 'assets/SignLanguage/M.png',
@@ -78,7 +102,7 @@ var ImgLib = {
 	w: 'assets/SignLanguage/W.png',
 	x: 'assets/SignLanguage/X.png',
 	y: 'assets/SignLanguage/Y.png',
-	z: 'assets/SignLanguage/Z.png',
+	z: 'assets/SignLanguage/Z.gif',
 	ex: 'assets/SignLanguage/!.png',
 	qu: 'assets/SignLanguage/qu.gif',
 	sp: 'assets/SignLanguage/space.png',
