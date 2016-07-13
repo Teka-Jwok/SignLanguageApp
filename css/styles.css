@@ -69,8 +69,14 @@ margin:-50px;
 }
 #credits{
 	background: linear-gradient(gray,white);
-	height: 80px;
+	height: 35px;
 	color: black;
 	text-align: center;
+	margin-top: 1px;
+}
+#credits2{
+	margin-top: 50px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 30px;
 }
 

@@ -52,6 +52,8 @@ var ImgLib = {
 	a7: 'assets/SignNumber/7.png',
 	a8: 'assets/SignNumber/8.png',
 	a9: 'assets/SignNumber/9.png',
+	pe: 'assets/SignLanguage/Dot.png',
+	co: 'assets/SignLanguage/Comma.png'
 }
 
 function test(strArr) {
@@ -70,6 +72,12 @@ function test(strArr) {
 		if (ind === "?") {
 			console.log(ind);
 			ind = "qu";
+		}
+		if (ind === ".") {
+			ind = "pe";
+		}
+		if (ind === ",") {
+			ind = "co";
 		}
 		if (ind === "0") {
 			ind = "a0"
