@@ -6,6 +6,11 @@ SubmittedCharacter.addEventListener('submit', function(event) {
   event.preventDefault();
   Character = this.querySelector('input').value;
   console.log("Character is "+Character)
+  if (Character === "donald trump") {
+  	var img2 = document.createElement('img');
+  	console.log('donaldtrump')
+  }
+  	img.src = 'assets/dtrump.jpeg';
   Character = Character.split("");
   console.log('Character',Character);
   test(Character)
@@ -40,7 +45,7 @@ var ImgLib = {
 	y: 'assets/SignLanguage/Y.png',
 	z: 'assets/SignLanguage/Z.png',
 	ex: 'assets/SignLanguage/!.png',
-	qu: 'assets/SignLanguage/qu.png',
+	qu: 'assets/SignLanguage/qu.gif',
 	sp: 'assets/SignLanguage/space.png',
 	a0: 'assets/SignNumber/0.png',
 	a1: 'assets/SignNumber/1.png', 

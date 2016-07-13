@@ -13,6 +13,10 @@ body{
 	border-radius: 50px;
 
 }
+#button:hover{
+	width: 250px;
+	height:100px;
+}
 #SubmissionBox{
 	width:300px;
 	height: 50px;
@@ -77,6 +81,12 @@ margin:-50px;
 #credits2{
 	margin-top: 50px;
 	font-family: "Comic Sans MS", cursive, sans-serif;
-	font-size: 30px;
+	font-size: 20px;
 }
 
+#credits2:hover{
+	font-size: 50px;
+}
+#credits:hover{
+	 height: 65px;
+}
