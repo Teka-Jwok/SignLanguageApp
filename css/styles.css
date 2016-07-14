@@ -90,3 +90,12 @@ margin:-50px;
 #credits:hover{
 	 height: 65px;
 }
+.easter{
+	height: 300px;
+	width: 300px;
+	border-radius: 100%;
+}
+.easter:hover{
+	height: 1000px;
+	width: 1000px;
+}
