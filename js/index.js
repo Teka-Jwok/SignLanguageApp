@@ -7,6 +7,7 @@ SubmittedCharacter.addEventListener('submit', function(event) {
   Character = this.querySelector('input').value;
   console.log("Character is "+Character)
   if (Character === "dtrump") {
+  	  	document.getElementById('images').innerHTML= "";
 	  var img2 = document.createElement('img');
 		var src2 = 'assets/dtrump.jpeg';
   	console.log('donaldtrump')
@@ -17,6 +18,7 @@ SubmittedCharacter.addEventListener('submit', function(event) {
 	  test(Character)
   }
   if (Character === "cnuggets") {
+  	  	document.getElementById('images').innerHTML= "";
 	  var img3 = document.createElement('img');
 		var src3 = 'assets/chickenNuggets.gif';
   	console.log('cnuggets')
@@ -27,6 +29,7 @@ SubmittedCharacter.addEventListener('submit', function(event) {
 	  test(Character)
   }
   if (Character === "pmb") {
+  	  	document.getElementById('images').innerHTML= "";
 	  var img4 = document.createElement('img');
 		var src = 'assets/pmb.gif';
   	console.log('pmg')
@@ -37,6 +40,7 @@ SubmittedCharacter.addEventListener('submit', function(event) {
 	  test(Character)
   }
   if (Character === "kainoa") {
+  	  	document.getElementById('images').innerHTML= "";
 	  var img5 = document.createElement('img');
 		var src = 'assets/kainoa.jpg';
   	console.log('kainoa')
@@ -47,6 +51,7 @@ SubmittedCharacter.addEventListener('submit', function(event) {
 	  test(Character)
   }
   if (Character === "brody") {
+  	  document.getElementById('images').innerHTML= "";
 	  var img6 = document.createElement('img');
 		var src = 'assets/brody.jpg';
   	console.log('brody')
@@ -57,6 +62,7 @@ SubmittedCharacter.addEventListener('submit', function(event) {
 	  test(Character)
   }
   if (Character === "sohn") {
+  	document.getElementById('images').innerHTML= "";
 	  var img7 = document.createElement('img');
 		var src = 'assets/sohn.jpg';
   	console.log('sohn')
@@ -67,6 +73,7 @@ SubmittedCharacter.addEventListener('submit', function(event) {
 	  test(Character)
   }
   if (Character === "chloe") {
+  	document.getElementById('images').innerHTML= "";
 	  var img8 = document.createElement('img');
 		var src = 'assets/chloe.jpg';
   	console.log('chloe')
