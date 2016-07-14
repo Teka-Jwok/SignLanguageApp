@@ -21,6 +21,7 @@ SubmittedCharacter.addEventListener('submit', function(event) {
 		var src3 = 'assets/chickenNuggets.gif';
   	console.log('cnuggets')
 	  img3.src = src3;
+	  img3.className = "easter"
 	  document.getElementById("images").appendChild(img3)
 	  return;
 	  test(Character)
@@ -30,6 +31,7 @@ SubmittedCharacter.addEventListener('submit', function(event) {
 		var src = 'assets/pmb.gif';
   	console.log('pmg')
 	  img4.src = src;
+	  img4.className = "easter"
 	  document.getElementById("images").appendChild(img4)
 	  return;
 	  test(Character)
@@ -39,6 +41,7 @@ SubmittedCharacter.addEventListener('submit', function(event) {
 		var src = 'assets/kainoa.jpg';
   	console.log('kainoa')
 	  img5.src = src;
+	  img5.className = "easter"
 	  document.getElementById("images").appendChild(img5)
 	  return;
 	  test(Character)
@@ -48,6 +51,7 @@ SubmittedCharacter.addEventListener('submit', function(event) {
 		var src = 'assets/brody.jpg';
   	console.log('brody')
 	  img6.src = src;
+	  img6.className = "easter"
 	  document.getElementById("images").appendChild(img6)
 	  return;
 	  test(Character)
@@ -57,6 +61,7 @@ SubmittedCharacter.addEventListener('submit', function(event) {
 		var src = 'assets/sohn.jpg';
   	console.log('sohn')
 	  img7.src = src;
+	  img7.className = "easter"
 	  document.getElementById("images").appendChild(img7)
 	  return;
 	  test(Character)
@@ -66,6 +71,7 @@ SubmittedCharacter.addEventListener('submit', function(event) {
 		var src = 'assets/chloe.jpg';
   	console.log('chloe')
 	  img8.src = src;
+	  img8.className = "easter"
 	  document.getElementById("images").appendChild(img8)
 	  return;
 	  test(Character)
