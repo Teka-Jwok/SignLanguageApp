@@ -98,4 +98,5 @@ margin:-50px;
 .easter:hover{
 	height: 1000px;
 	width: 1000px;
+	z-index: 1;
 }
