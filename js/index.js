@@ -217,6 +217,7 @@ function test(strArr) {
 }
 
 function aboutus(){
+	document.getElementById('images').innerHTML= "";
 	document.getElementById("h1").innerHTML= ""
 	document.getElementById("h2").innerHTML= ""
 	document.getElementById("CharacterSubmit").innerHTML= ""
