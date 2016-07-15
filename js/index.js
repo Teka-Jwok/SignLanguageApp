@@ -216,6 +216,18 @@ function test(strArr) {
 	}
 }
 
+function aboutus(){
+	document.getElementById("h1").innerHTML= ""
+	document.getElementById("h2").innerHTML= ""
+	document.getElementById("CharacterSubmit").innerHTML= ""
+	document.getElementById("AboutUs").innerHTML= "We are a group of four students in Hawai'i who share a single common goal; to bridge the gap between deaf and hearing family members and friends. We believe that our world is a better when people can freely communicate with eachother. We hope that the users of this application can use it to continue to allow deaf people around the world to share their thoughts and ideas with the community. Yours Truly, The YSLH Team."
+	var img11 = document.createElement('img');
+	var src = 'assets/group.jpg';
+	img11.src = src;
+	document.getElementById("images").appendChild(img11)
+	img11.className = "easter"
+}
+
 
 
 
