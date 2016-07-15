@@ -83,6 +83,28 @@ SubmittedCharacter.addEventListener('submit', function(event) {
 	  return;
 	  test(Character)
   }
+  if (Character === "hello from the other side...") {
+  	document.getElementById('images').innerHTML= "";
+	  var img9 = document.createElement('img');
+		var src = 'assets/hello.jpeg';
+  	console.log('hello')
+	  img9.src = src;
+	  img9.className = "easter"
+	  document.getElementById("images").appendChild(img9)
+	  return;
+	  test(Character)
+  }
+  if (Character === "jcena") {
+  	document.getElementById('images').innerHTML= "";
+	  var img10 = document.createElement('img');
+		var src = 'assets/jcena.jpg';
+  	console.log('john')
+	  img10.src = src;
+	  img10.className = "easter"
+	  document.getElementById("images").appendChild(img10)
+	  return;
+	  test(Character)
+  }
   Character = Character.split("");
   console.log('Character',Character);
   test(Character)
@@ -189,6 +211,7 @@ function test(strArr) {
 		img.src = ImgLib[ind]
 		div.appendChild(img);
 		div.className = "ASLImages";
+		img.className	= "pics";
 		document.getElementById("images").appendChild(div);
 	}
 }

@@ -49,6 +49,10 @@ margin:-50px;
 	float: left;
 	margin-top: 100px;
 }
+/*.ASLImages:hover{
+	opacity: 0;
+}
+*/
 
 #images{
 	display: inline-block;
